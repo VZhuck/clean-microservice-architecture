@@ -1,0 +1,16 @@
+<Solution>
+  <Folder Name="/MSA/">
+    <Project Path="MSA.Application/MSA.Application.csproj" Id="0828ca9c-5caa-49ca-992b-dfad815bef77" />
+    <Project Path="MSA.Domain/MSA.Domain.csproj" Id="6ecb8668-0d5a-42a4-8b7c-59bdc21b802d" />
+    <Project Path="MSA.Infrastructure/MSA.Infrastructure.csproj" Id="463227cc-9f19-442c-aabc-d5fd7e33263a" />
+    <Project Path="MSA.Mediator/MSA.Mediator.csproj" Id="7cb78b81-3e75-467a-827b-51d95742e489" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="WebAPI/WebAPI.csproj" Id="bb1af3d6-720f-400f-a602-adb1f8d8b627" />
+  </Folder>
+</Solution>
