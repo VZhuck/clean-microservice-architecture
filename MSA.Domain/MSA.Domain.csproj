@@ -1,5 +1,5 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <ItemGroup>
-    <ProjectReference Include="..\MSA.Mediator\MSA.Mediator.csproj" />
+    <ProjectReference Include="..\MSA.Mediator.Abstractions\MSA.Mediator.Abstractions.csproj" />
   </ItemGroup>
 </Project>

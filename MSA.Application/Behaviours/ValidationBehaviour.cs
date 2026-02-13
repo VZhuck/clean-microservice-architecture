@@ -1,5 +1,5 @@
 ﻿using FluentValidation;
-using MSA.Mediator;
+using MSA.Mediator.Abstractions;
 using ValidationException = MSA.Application.Exceptions.ValidationException;
 
 namespace MSA.Application.Behaviours;

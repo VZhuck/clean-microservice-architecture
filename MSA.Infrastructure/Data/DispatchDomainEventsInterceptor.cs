@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using MSA.Domain;
 using MSA.Mediator;
+using MSA.Mediator.Abstractions;
 
 namespace MSA.Infrastructure.Data;
 

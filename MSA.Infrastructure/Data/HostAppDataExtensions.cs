@@ -44,11 +44,11 @@ public static class HostAppDataExtensions
     }
 
     public static IHostApplicationBuilder WithDbContextInitializer<TInit>(this IHostApplicationBuilder builder)
-        where TInit : class, IDbContextInitialiser
+        where TInit : class, IDbContextInitializer
     {
         // Add DB Initializer
         builder.Services.AddScoped<TInit>();
-        builder.Services.AddScoped<IDbContextInitialiser>(provider => provider.GetRequiredService<TInit>());
+        builder.Services.AddScoped<IDbContextInitializer>(provider => provider.GetRequiredService<TInit>());
         return builder;
     }
 }

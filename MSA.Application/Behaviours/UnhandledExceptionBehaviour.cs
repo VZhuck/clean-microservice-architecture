@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using MSA.Mediator;
+using MSA.Mediator.Abstractions;
 
 namespace MSA.Application.Behaviours;
 

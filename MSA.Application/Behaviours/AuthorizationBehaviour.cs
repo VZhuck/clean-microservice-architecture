@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Authorization;
 using MSA.Application.Exceptions;
 using MSA.Application.Interfaces;
-using MSA.Mediator;
+using MSA.Mediator.Abstractions;
 
 namespace MSA.Application.Behaviours;
 

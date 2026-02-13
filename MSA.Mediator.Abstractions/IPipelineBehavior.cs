@@ -1,4 +1,4 @@
-﻿namespace MSA.Mediator;
+﻿namespace MSA.Mediator.Abstractions;
 
 public delegate Task<TResponse> RequestHandlerDelegate<TResponse>(CancellationToken t = default);
 

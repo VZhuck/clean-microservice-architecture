@@ -1,9 +1,10 @@
 <Solution>
   <Folder Name="/MSA/">
-    <Project Path="MSA.Application/MSA.Application.csproj" Id="0828ca9c-5caa-49ca-992b-dfad815bef77" />
-    <Project Path="MSA.Domain/MSA.Domain.csproj" Id="6ecb8668-0d5a-42a4-8b7c-59bdc21b802d" />
-    <Project Path="MSA.Infrastructure/MSA.Infrastructure.csproj" Id="463227cc-9f19-442c-aabc-d5fd7e33263a" />
-    <Project Path="MSA.Mediator/MSA.Mediator.csproj" Id="7cb78b81-3e75-467a-827b-51d95742e489" />
+    <Project Path="MSA.Application/MSA.Application.csproj" />
+    <Project Path="MSA.Domain/MSA.Domain.csproj" />
+    <Project Path="MSA.Infrastructure/MSA.Infrastructure.csproj" />
+    <Project Path="MSA.InfrastructureTests\MSA.InfrastructureTests.csproj" Type="C#" />
+    <Project Path="MSA.Mediator.Abstractions\MSA.Mediator.Abstractions.csproj" />
   </Folder>
   <Folder Name="/Solution Items/">
     <File Path=".gitignore" />
@@ -11,6 +12,12 @@
     <File Path="Directory.Packages.props" />
   </Folder>
   <Folder Name="/src/">
-    <Project Path="WebAPI/WebAPI.csproj" Id="bb1af3d6-720f-400f-a602-adb1f8d8b627" />
+    <Project Path="Application\Application.csproj" Type="C#" />
+    <Project Path="Domain\Domain.csproj" Type="C#" />
+    <Project Path="Infrastructure\Infrastructure.csproj" Type="C#" />
+    <Project Path="WebAPI/WebAPI.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="ApplicationTests\ApplicationTests.csproj" Type="C#" />
   </Folder>
 </Solution>

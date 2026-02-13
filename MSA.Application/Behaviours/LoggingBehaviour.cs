@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 using MSA.Application.Interfaces;
-using MSA.Mediator;
+using MSA.Mediator.Abstractions;
 
 namespace MSA.Application.Behaviours;
 

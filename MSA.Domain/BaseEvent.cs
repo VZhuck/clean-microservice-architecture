@@ -1,5 +1,5 @@
 
-using MSA.Mediator;
+using MSA.Mediator.Abstractions;
 
 namespace MSA.Domain;
 

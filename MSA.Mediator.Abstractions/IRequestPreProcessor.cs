@@ -1,4 +1,4 @@
-﻿namespace MSA.Mediator;
+﻿namespace MSA.Mediator.Abstractions;
 
 public interface IRequestPreProcessor<in TRequest> where TRequest : notnull
 {
